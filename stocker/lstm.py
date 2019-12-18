@@ -1,5 +1,5 @@
-from keras.models import Sequential
-from keras.layers import Dense, LSTM, Dropout
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, LSTM, Dropout
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 from stocker.error import get
